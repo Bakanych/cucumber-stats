@@ -1,12 +1,30 @@
 {
   "name": "cucumber-stats",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Step statistics formatter for cucumber-js",
+  "keywords": [
+    "testing",
+    "bdd",
+    "cucumber",
+    "gherkin",
+    "tests"
+  ],
   "author": "Alex Bakanov",
   "license": "MIT",
-  "scripts": {
-    "stats": "./node_modules/.bin/cucumber-js --dry-run --exit --format ./src/StatsFormatter"
+  "repository": {
+    "url": "https://github.com/Bakanych/cucumber-stats.git",
+    "type": "git"
   },
+  "scripts": {
+    "test": "tsc && cucumber-js --dry-run --format ./lib"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "files": [
+    "lib/"
+  ],
+  "main": "./lib/index.js",
   "dependencies": {
     "chalk": "^4.0.0",
     "cucumber": "^6.0.5"
