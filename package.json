@@ -1,0 +1,20 @@
+{
+  "name": "cucumber-stats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alex Bakanov",
+  "license": "MIT",
+  "scripts": {
+    "stats": "./node_modules/.bin/cucumber-js --dry-run --exit --format ./src/StatsFormatter"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "cucumber": "^6.0.5"
+  },
+  "devDependencies": {
+    "@types/cucumber": "^6.0.1",
+    "@types/node": "^13.11.1",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  }
+}
