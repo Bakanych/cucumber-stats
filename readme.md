@@ -1,5 +1,7 @@
 # Cucumber Step Stats
 
+[![npm version](https://badge.fury.io/js/cucumber-stats.svg)](https://badge.fury.io/js/cucumber-stats)
+
 Cucumber.js formatter to display colorful step usage statictics
 
 ## Usage
