@@ -23,7 +23,8 @@
     "lib": "./lib"
   },
   "files": [
-    "bin/"
+    "bin/",
+    "lib/"
   ],
   "bin": "./bin/cucumber-stats",
   "dependencies": {
