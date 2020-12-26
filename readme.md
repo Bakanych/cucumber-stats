@@ -7,7 +7,8 @@ Cucumber.js formatter to display colorful step usage statictics
 ## Usage
 
 ```
-npx cucumber-stats
+npm i cucumber-stats
+./node_modules/.bin/cucumber-stats
 ```
 
 ![](/img/stats.png)
