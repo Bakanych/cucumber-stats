@@ -1,6 +1,6 @@
 {
   "name": "cucumber-stats",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "spec": "cucumber version >=4.x <=6.x",
   "description": "Step statistics formatter for cucumber-js",
   "keywords": [
@@ -17,15 +17,15 @@
     "type": "git"
   },
   "scripts": {
-    "test": "tsc && cucumber-js --dry-run --format ./lib"
+    "test": "tsc && node ./bin/cucumber-stats"
   },
   "directories": {
     "lib": "./lib"
   },
   "files": [
-    "lib/"
+    "bin/"
   ],
-  "main": "./lib/index.js",
+  "bin": "./bin/cucumber-stats",
   "dependencies": {
     "chalk": "^4.1.0"
   },

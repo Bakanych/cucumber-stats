@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const path = require("path");
+const formatter = path.join(__dirname, "../lib/StatsFormatter.js");
+process.argv.push(...["-f", formatter]);
+require("cucumber/lib/cli/run.js").default();
