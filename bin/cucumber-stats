@@ -2,5 +2,5 @@
 
 const path = require("path");
 const formatter = path.join(__dirname, "../lib/StatsFormatter.js");
-process.argv.push(...["-f", formatter]);
+process.argv.push(...["-f", formatter, "--dry-run"]);
 require("cucumber/lib/cli/run.js").default();
