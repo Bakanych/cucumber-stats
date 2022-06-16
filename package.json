@@ -1,8 +1,8 @@
 {
   "name": "cucumber-stats",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "spec": "cucumber version >=4.x <=6.x",
-  "description": "Step statistics formatter for cucumber-js",
+  "description": "Step usage statisticsfor cucumber-js",
   "keywords": [
     "testing",
     "bdd",
@@ -17,7 +17,8 @@
     "type": "git"
   },
   "scripts": {
-    "test": "tsc && node ./bin/cucumber-stats"
+    "test": "tsc && node ./bin/cucumber-stats",
+    "cucumber": "cucumber-js"
   },
   "directories": {
     "lib": "./lib"
@@ -28,13 +29,13 @@
   ],
   "bin": "./bin/cucumber-stats",
   "dependencies": {
-    "chalk": "^4.1.0"
+    "chalk": "^4.1.2"
   },
   "devDependencies": {
     "@types/cucumber": "^6.0.1",
     "@types/node": "^13.11.1",
-    "ts-node": "^9.1.1",
-    "typescript": "^3.8.3"
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
   },
   "peerDependencies": {
     "cucumber": "4.x - 6.x"
